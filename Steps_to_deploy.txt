@@ -1,0 +1,27 @@
+Steps to deploy:
+Open aws.com and sign in
+Open EC2 and create an instance
+select Ubuntu instance,
+choose t2-small(not free tier)
+create key-pair
+select all boxes under security group and click on create
+
+
+sudo apt update
+#apt is package manager
+sudo apt-get update
+sudo apt upgrade -y
+sudo apt install git curl unzip tar make sudo vim wget -y
+git clone https://github.com/rachelshirin007/mcqgen.git
+cd mcqgen
+touch .env
+vi .env and insert the OpenAI Key
+sudo apt install python3-pip
+pip3 install -r requirements.txt
+python3 -m streamlit run streamlitapp.py
+Then go to instance details page and copy public IP address
+after than select security button on the same page
+then click on the security group ID link
+then edit inbound rule
+Add a new rule and let options be custom and anywhere, in port add 8501, save it
+the paste in new tab and run with public_address:port_no.
