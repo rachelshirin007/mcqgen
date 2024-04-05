@@ -19,7 +19,7 @@ from src.mcqgenerator.MCQGenerator import generate_evaluate_chain
 logging.info("Opening Response.json")
 
 #loading json file
-with open(r'C:\Users\kotav\mcqgen\Respone.json', 'r') as file:
+with open(r'Respone.json', 'r') as file:
     RESPONSE_JSON = json.load(file)
 
 logging.info("Give Title")
