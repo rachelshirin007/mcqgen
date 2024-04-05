@@ -1,0 +1,19 @@
+[2024-04-05 11:40:27,459] 18 root - INFO - Open AI API Key is loaded
+[2024-04-05 11:40:33,959] 22 root - INFO - LLM is given
+[2024-04-05 11:40:33,959] 71 root - INFO - Prompt Template 1 is created
+[2024-04-05 11:40:33,959] 75 root - INFO - LLM and Prompt Template 1 chain is created
+[2024-04-05 11:40:33,967] 90 root - INFO - Prompt Template 2 is created
+[2024-04-05 11:40:33,968] 94 root - INFO - LLM and Prompt Template 2 chain is created
+[2024-04-05 11:40:33,968] 100 root - INFO - Chain of quiz and review chains is created
+[2024-04-05 11:40:33,969] 19 root - INFO - Opening Response.json
+[2024-04-05 11:40:33,969] 19 root - INFO - Opening Response.json
+[2024-04-05 11:40:33,979] 25 root - INFO - Give Title
+[2024-04-05 11:40:33,979] 25 root - INFO - Give Title
+[2024-04-05 11:40:33,984] 30 root - INFO - Taking User Inputs
+[2024-04-05 11:40:34,191] 30 root - INFO - Taking User Inputs
+[2024-04-05 11:41:26,158] 19 root - INFO - Opening Response.json
+[2024-04-05 11:41:26,158] 25 root - INFO - Give Title
+[2024-04-05 11:41:26,158] 30 root - INFO - Taking User Inputs
+[2024-04-05 11:41:36,349] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-04-05 11:41:38,223] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-04-05 11:41:38,223] 66 root - INFO - Tokens Summary:
